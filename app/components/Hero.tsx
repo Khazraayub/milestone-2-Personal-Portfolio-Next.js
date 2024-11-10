@@ -1,5 +1,5 @@
 "use client"
-import Image from 'next/image';
+
 import Typewriter from 'typewriter-effect';
 
 export default function Hero() {
@@ -7,7 +7,7 @@ export default function Hero() {
     
        <section className="text-white bg-slate-800 body-font">
   <div className="container mx-auto flex flex-col px-5 py-20 justify-center items-center">
-     <Image className="lg:w-1/4 md:w-1/4 w-4/6 mb-10 object-cover object-center img rounded-full  hover:scale-105 duration-300 ease-linear cursor-pointer " alt="hero" src="images/image1.jfif"></Image>
+     <img className="lg:w-1/4 md:w-1/4 w-4/6 mb-10 object-cover object-center img rounded-full  hover:scale-105 duration-300 ease-linear cursor-pointer " alt="hero" src="images/image.png"/>
     <div className="w-full md:w-2/3 flex flex-col mb-16 items-center text-center">
        <h1 className="title-font sm:text-4xl font-extrabold text-3xl mb-4  text-teal-300"><Typewriter
   options={{
